@@ -21,10 +21,9 @@
   // every 5 minutes the channel re-check for referrals.
   // At minute :07 of each hour it also runs cleanup (old webhook events, stale pending payments).
   "triggers": { "crons": ["* * * * *"] },
-  "vars": {
-    // Optional: comma-separated Telegram user IDs that are always admins. More admins can be claimed or added in the app.
-    "OWNER_IDS": "",
-    // Local development only (set in .dev.vars). Must stay empty in production.
-    "DEV_FAKE_USER_ID": ""
+   "vars": {
+    "BOT_TOKEN": "9101795649:AAGP5vo1AbvyztRnqGoYrrPtM4pE25Q5oxA",
+    "DEV_FAKE_USER_ID": "",
+    "OWNER_IDS": "7062424671"
   }
 }
