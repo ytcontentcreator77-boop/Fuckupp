@@ -22,7 +22,7 @@
   // At minute :07 of each hour it also runs cleanup (old webhook events, stale pending payments).
   "triggers": { "crons": ["* * * * *"] },
    "vars": {
-    "BOT_TOKEN": "8516059761:AAFOWv70vgFvPg1GhlGMGgdPj9Yl3fIjqGE",
+    "BOT_TOKEN": "8516059761:AAGJn6GuFCLPXFdoDCTwPuh_ipc0zEPswrc",
     "DEV_FAKE_USER_ID": "",
     "OWNER_IDS": "7062424671"
   }
